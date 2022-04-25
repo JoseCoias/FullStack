@@ -1,6 +1,8 @@
 note over browser:
 Note is displayed to the browser
 end note
+server-->browser: New Note
+
 note over server:
 Note is added to the array
 end note
@@ -25,3 +27,4 @@ note over browser:
 browser executes the event handler
 that renders notes to display
 end note
+
