@@ -1,0 +1,14 @@
+note over browser:
+Click "Save"
+end note
+
+note over browser:
+onsubmit event listener fired
+end note
+
+note over browser:
+note is added to array and the text is refreshed
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa \n JSON {content: "dwe", date: "2022-05-15T14:52:50.877Z"}
+server-->browser: JSON {"message":"note created"}
