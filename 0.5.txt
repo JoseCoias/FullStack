@@ -1,0 +1,15 @@
+browser->server: GET Request to https://fullstack-exampleapp.herokuapp.com/spa
+
+server-->browser: HTML with 'notes_form' text form input and submit button
+
+browser->server: GET Request to /main.css
+
+server-->browser: main.css
+
+browser->server: GET Request to /spa.js, connect to Host: fullstack-exampleapp.herokuapp.com
+
+server-->browser: spa.js, to execute xhttp GET response with data.json and POST to /new_note_spa to server
+
+browser->server: GET Request to https://fullstack-exampleapp.herokuapp.com/data.json
+
+server-->browser: data.json [{"content":"HTML is easy","date":"2019-05-23T17:30:31.098Z"},...]
